@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Peter's Game</title>
+			<meta charset="UTF-8">
+			<link rel= "stylesheet" href="main.css" type="text/css">
+		</head>
+		<body>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Game</a>
+						<ul>
+							<li><a href="#">Age</a></li>
+							<li><a href="#">Color</a></li>
+							<li><a href="#">About</a>
+								<ul>
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">CSS</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			</div>
+		<div class="content">
+			<div class="game">
+				<div id="title">
+					<h1 align="center">Guessing Game</h1>
+					<h1 align="left"></h1>
+					<h4 align="center">Peter Nguyen</h4></br>
+				</div>
+					<div id="btn">
+						<img  id="img1" src="img.jpg"  onclick= "peterGame(),resetScore()">	
+					</div>
+					<div id="description">
+						<p align="center">
+							This is a game based on the facts and preferance of the author of the game, me.</br>
+							You will answer question and when you get a question right your score goes up,</br> when you answer all the questions correctly you will win.
+						</p>
+					</div>
+					<div class="user">
+						<h1 align="center-bottom" id = "t"></h1>
+						<p align="center-bottom" id = "score"></p>
+				    </div>
+				</div>
+			</div>
+				<script src="game.js"></script>
+		</body>
+	</html>
